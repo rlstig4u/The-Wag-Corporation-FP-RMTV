@@ -1,6 +1,9 @@
 package com.finalproject.Widget;
 
-import com.finalproject.LargeGadget.Gadget;
+public interface Widget {
+    public String getGears();
+    public String getSprings();
+    public String getLevers();
+    public String getSerialNumber();
 
-public interface Widget extends Gadget {
 }

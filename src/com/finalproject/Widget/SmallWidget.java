@@ -1,15 +1,30 @@
 package com.finalproject.Widget;
 
-public class SmallWidget {
+import com.finalproject.java.ProductType;
+import com.finalproject.java.SerialNumber;
+import com.finalproject.java.SurfaceColor;
 
-    int gears = 2;
-    int springs = 3;
-    int lever = 1;
+public class SmallWidget extends AbstractWidget{
 
-    public static void smallWidget() {
-        System.out.println("Serial # : 22SML" + singleton.getInstance());
-
-
+    public SmallWidget(SurfaceColor color) {
+        super(color);
+        this.serialNumber = SerialNumber.getInstance()
+                .getNextSerial (ProductType.SmallWidget);
+    }
+    @Override
+    public String getGears() {
+        return "2 Gears";
+    }
+    @Override
+    public String getSprings() {
+        return "3 Springs";
     }
 
+    @Override
+    public String getLevers() {
+        return "1 Lever";
+    }
 }
+
+
+
