@@ -13,7 +13,7 @@ import java.util.List;
 
 public class SmallGadget extends AbstractGadget {
     public SmallGadget() {
-        this(SurfaceColor.PAINTED);
+        this(SurfaceColor.SILVER);
     }
 
     public SmallGadget(SurfaceColor color) {

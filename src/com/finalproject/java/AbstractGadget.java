@@ -9,7 +9,7 @@ public abstract class AbstractGadget implements Gadget {
     protected String serialNumber;
 
     public AbstractGadget() {
-        this(SurfaceColor.PLAIN);
+        this(SurfaceColor.GOLD);
     }
 
     public AbstractGadget(SurfaceColor color) {

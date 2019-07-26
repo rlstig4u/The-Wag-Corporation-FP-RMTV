@@ -11,7 +11,7 @@ import java.util.List;
 
 public class LargeGadget extends AbstractGadget {
     public LargeGadget() {
-        this(SurfaceColor.PAINTED);
+        this(SurfaceColor.SILVER);
 
     }
 

@@ -15,7 +15,7 @@ import java.util.List;
 
 public class MediumGadget extends AbstractGadget {
     public MediumGadget() {
-        this(SurfaceColor.PAINTED);
+        this(SurfaceColor.SILVER);
     }
 
     public MediumGadget(SurfaceColor color) {
